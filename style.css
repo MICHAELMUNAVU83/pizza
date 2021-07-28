@@ -1,8 +1,14 @@
 #back{
+   
+    background-image: url(piz.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    
+}
+#txt{
 
-    background-image:url(head.jpeg);
-    
-    height: 50vh;
-    
-    
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
