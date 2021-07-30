@@ -202,4 +202,30 @@ function sassss(){
 }
 
 
+function zote(){
+
+    let price = document.getElementById('resu').innerHTML
+    if(price==='LARGE SIZE PIZZA'){
+        document.getElementById('menu').innerHTML= 'Amount to be paid for pizza' + ' ' + String( 1100) 
+        document.getElementById('menuu').innerHTML=String(1100)
+    }else if (price == 'MEDIUM SIZE PIZZA') {
+        document.getElementById('menu').innerHTML='Amount to be paid for pizza' + ' ' + String( 800) 
+        document.getElementById('menuu').innerHTML=String(800)
+        
+    } else if(price== 'SMALL SIZE PIZZA') {
+        document.getElementById('menu').innerHTML= 'Amount to be paid for pizza' + ' ' + String( 500)  
+        document.getElementById('menuu').innerHTML=String(500)
+    
+        
+    }
+
+    let vv = parseInt(document.getElementById('top').innerHTML ) + parseInt( document.getElementById('menuu').innerHTML ) + 
+    parseInt(document.getElementById('kra').innerHTML)
+    let vvv= String(vv)
+    document.getElementById('pop').innerHTML=' Total Amount to be paid is' + ' ' +vvv
+    
+    
+ }
+
+
 
