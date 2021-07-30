@@ -6,27 +6,27 @@ function fla(){
 }
 function flav(){
     let vegg = document.getElementById('veggie').value
-    document.getElementById('tas').innerHTML='SELECTED PIZZA IS VEGGIE FLAVOR'
+    document.getElementById('tas').innerHTML='SELECTED PIZZA IS VEGGIE FLAVOUR'
 
 }
 function flavv(){
     let roni = document.getElementById('pepper').value
-    document.getElementById('tas').innerHTML='SELECTED PIZZA IS PEPPERONI FLAVOR'
+    document.getElementById('tas').innerHTML='SELECTED PIZZA IS PEPPERONI FLAVOUR'
 
 }
 function pla(){
     let meatt = document.getElementById('meat').value
-    document.getElementById('tas').innerHTML='SELECTED PIZZA IS MEAT FLAVOR'
+    document.getElementById('tas').innerHTML='SELECTED PIZZA IS MEAT FLAVOUR'
 
 }
 function plav(){
     let chic = document.getElementById('chick').value
-    document.getElementById('tas').innerHTML='SELECTED PIZZA IS BBQ CHICKEN FLAVOR'
+    document.getElementById('tas').innerHTML='SELECTED PIZZA IS BBQ CHICKEN FLAVOUR'
 
 }
 function plavv(){
     let hawian = document.getElementById('hawi').value
-    document.getElementById('tas').innerHTML='SELECTED PIZZA IS HAWAIIAN FLAVOR'
+    document.getElementById('tas').innerHTML='SELECTED PIZZA IS HAWAIIAN FLAVOUR'
 
 }
 
@@ -129,11 +129,11 @@ function sas(){
 
     document.getElementById('top').innerHTML=  String(200) 
    } else if (price == 'MEDIUM SIZE PIZZA') {
-    document.getElementById('reason').innerHTML='Your topping are sausages'
+    document.getElementById('reason').innerHTML='Your toppings are sausages'
     document.getElementById('top').innerHTML= String(150) 
        
    } else if(price== 'SMALL SIZE PIZZA') {
-    document.getElementById('reason').innerHTML='Your topping are sausages'
+    document.getElementById('reason').innerHTML='Your toppings are sausages'
     document.getElementById('top').innerHTML=  String (100)
        
    }
@@ -206,26 +206,28 @@ function zote(){
 
     let price = document.getElementById('resu').innerHTML
     if(price==='LARGE SIZE PIZZA'){
-        document.getElementById('menu').innerHTML= 'Amount to be paid for pizza' + ' ' + String( 1100) 
         document.getElementById('menuu').innerHTML=String(1100)
     }else if (price == 'MEDIUM SIZE PIZZA') {
-        document.getElementById('menu').innerHTML='Amount to be paid for pizza' + ' ' + String( 800) 
         document.getElementById('menuu').innerHTML=String(800)
         
     } else if(price== 'SMALL SIZE PIZZA') {
-        document.getElementById('menu').innerHTML= 'Amount to be paid for pizza' + ' ' + String( 500)  
         document.getElementById('menuu').innerHTML=String(500)
     
         
     }
-
+    let num1 = document.getElementById('num').value
+   
+   
     let vv = parseInt(document.getElementById('top').innerHTML ) + parseInt( document.getElementById('menuu').innerHTML ) + 
     parseInt(document.getElementById('kra').innerHTML)
     let vvv= String(vv)
-    document.getElementById('pop').innerHTML=' Total Amount to be paid is' + ' ' +vvv
+    let kk= parseInt(vv) * num1
+    document.getElementById('pop').innerHTML= vvv
+    document.getElementById('kim').innerHTML=' TOTAL AMOUNT TO BE PAID FOR ' + ' ' + num1 + ' '+' PIZZAS IS :' + ' ' + kk
     
     
  }
+
 
 
 
