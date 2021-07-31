@@ -64,17 +64,6 @@ $(document).ready (function(){
 }) 
 
 
-
-
-
-
-
-
-
-
-
-
-
 function fla(){
     let che = document.getElementById('cheese').value
     document.getElementById('tas').innerHTML='SELECTED PIZZA IS CHEESE FLAVOR'
@@ -299,7 +288,7 @@ function zote(){
     let vvv= String(vv)
     let kk= parseInt(vv) * num1
     document.getElementById('pop').innerHTML= vvv
-    document.getElementById('kim').innerHTML=' TOTAL AMOUNT TO BE PAID FOR ' + ' ' + num1 + ' '+' PIZZAS IS :' + ' ' + kk
+    document.getElementById('kim').innerHTML=' TOTAL AMOUNT TO BE PAID FOR ' + ' ' + num1 + ' '+' PIZZA(S) IS :' + ' ' + kk
     
     
  }

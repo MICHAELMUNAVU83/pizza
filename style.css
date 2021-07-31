@@ -40,10 +40,10 @@
     -o-transition: 0.5s;
 }
 #resultt{
-    background-image:url(kimm.jpeg);
+    background-image:url(kimmm.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 100vh;
-    opacity: 0.8;
+    height: 85vh;
+    
 
 }
