@@ -632,17 +632,18 @@
     <div class="container">
       <div class="text-center">
         <button type="button" class="btn btn-success btn-lg" onclick="deliv()">DELIVERY</button>
+      </div>  
         <br>
+        <p id="del"  style="color: white;"></p>
+        <p id="kutuma" class="text-center" style="color: red; font-size: 20px;"></p>
         <br>
-        <button type="button" class="btn btn-warning btn-lg" onclick="pick()"> PHYSICAL PICK-UP</button>
-  
+        <div class="text-center"> 
+          <button type="button" class="btn btn-warning btn-lg" onclick="pick()"> PHYSICAL PICK-UP</button>
 
-      </div>
-      <br>
+        </div>
+        
 
-      <!-- <button type="reset" onclick="done()" class="btn btn-danger btn-lg btn-block"> CHECK OUT BUTTON</button> -->
-
-      <p id="pickup" class="text-center" style="outline: 2px solid green; font-size: 24px; font-style: italic; color: red;" ></p>
+      <p id="proo" style="color: white;"></p>
 
     
 
@@ -671,7 +672,7 @@
     
 
 
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
  <script src="script.js"></script>
 </body>

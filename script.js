@@ -291,20 +291,56 @@ function zote(){
 
  function pick(){
 
-    document.getElementById('pickup').innerHTML= 'THANK YOU FOR YOUR ORDER OF ' + ' ' +
-    document.getElementById('num').value + ' ' + document.getElementById('tas').innerHTML
-    + ' ' + ',' + document.getElementById('resu').innerHTML + ' ' + 'WITH' + ' '
-    + document.getElementById('reason').innerHTML + ' ' + 'AND A ' +
-    document.getElementById('krast').innerHTML + '.' + ' ' +
-    'YOUR PIZZA WILL BE READY IN TEN MINUTES AND THE TOTAL COST WILL BE' + ' '
-    + document.getElementById('kkk').innerHTML + '/='
 
-
-
+    swal({
+        title: "ORDER COMPLETE!!",
+        text :  'THANK YOU FOR YOUR ORDER OF ' + ' ' +
+        document.getElementById('num').value + ' ' + document.getElementById('tas').innerHTML
+        + ' ' + ',' + document.getElementById('resu').innerHTML + ' ' + 'WITH' + ' '
+        + document.getElementById('reason').innerHTML + ' ' + 'AND A ' +
+        document.getElementById('krast').innerHTML + '.' + ' ' +
+        'YOUR PIZZA WILL BE READY IN TEN MINUTES AND THE TOTAL COST WILL BE' + ' '
+        + document.getElementById('kkk').innerHTML + '/='
+    
+     ,
+        icon: "success",
+      });
+    
  }
 function deliv(){
     alert('Delivery cost is Two Hundred')
-    prompt('Where do You want Your Pizza Delivered')
+    let pro = prompt('Where do You want Your Pizza Delivered')
+    document.getElementById('proo').innerHTML= pro
+    
+    let deliver = (  parseInt(document.getElementById('kkk').innerHTML  ) + 200 )
+    document.getElementById('del').innerHTML= deliver
+    document.getElementById('kutuma').innerHTML = 'TOTAL AMOUNT PLUS DELIVERY FEE IS ' + ' ' + deliver
+
+
+    swal({
+        title: "ORDER AND DELIVERY REQUEST RECEIVED!",
+        text: 'THANK YOU FOR YOUR ORDER OF ' + ' ' +
+        document.getElementById('num').value + ' ' + document.getElementById('tas').innerHTML
+        + ' ' + ',' + document.getElementById('resu').innerHTML + ' ' + 'WITH' + ' '
+        + document.getElementById('reason').innerHTML + ' ' + 'AND A ' +
+        document.getElementById('krast').innerHTML + '.' + ' ' +
+        'YOUR PIZZA WILL BE DELIVERED TO ' + ' '  + document.getElementById('proo').innerHTML + ' '
+        + 'AND TOTAL COST WILL BE' + ' ' +  document.getElementById('del').innerHTML + '.'
+    
+    ,
+        icon: "success",
+        button: "OKAY!!",
+      });
+
+
+
+
+    
+
+
+
+
+
 }
 
 
