@@ -7,7 +7,7 @@ $(document).ready (function(){
         $('#oli').toggle()
     })
     $('#oli').mouseleave(function(){
-        $('#oli').hide()
+        $('#oli').fadeOut()
 
 
     })
@@ -20,7 +20,7 @@ $(document).ready (function(){
         $('#cra').toggle()
     })
     $('#cra').mouseleave(function(){
-        $('#cra').hide()
+        $('#cra').fadeOut()
 
 
     })
@@ -34,7 +34,7 @@ $(document).ready (function(){
         $('#pri').toggle()
     })
     $('#pri').mouseleave(function(){
-        $('#pri').hide()
+        $('#pri').fadeOut()
 
 
     })
@@ -47,7 +47,7 @@ $(document).ready (function(){
         $('#piz').toggle()
     })
     $('#piz').mouseleave(function(){
-        $('#piz').hide()
+        $('#piz').fadeOut()
 
 
     })
@@ -66,32 +66,32 @@ $(document).ready (function(){
 
 function fla(){
     let che = document.getElementById('cheese').value
-    document.getElementById('tas').innerHTML='SELECTED PIZZA IS CHEESE FLAVOR'
+    document.getElementById('tas').innerHTML=' IS CHEESE FLAVOR'
 
 }
 function flav(){
     let vegg = document.getElementById('veggie').value
-    document.getElementById('tas').innerHTML='SELECTED PIZZA IS VEGGIE FLAVOUR'
+    document.getElementById('tas').innerHTML='  VEGGIE FLAVOUR'
 
 }
 function flavv(){
     let roni = document.getElementById('pepper').value
-    document.getElementById('tas').innerHTML='SELECTED PIZZA IS PEPPERONI FLAVOUR'
+    document.getElementById('tas').innerHTML='  PEPPERONI FLAVOUR'
 
 }
 function pla(){
     let meatt = document.getElementById('meat').value
-    document.getElementById('tas').innerHTML='SELECTED PIZZA IS MEAT FLAVOUR'
+    document.getElementById('tas').innerHTML='  MEAT FLAVOUR'
 
 }
 function plav(){
     let chic = document.getElementById('chick').value
-    document.getElementById('tas').innerHTML='SELECTED PIZZA IS BBQ CHICKEN FLAVOUR'
+    document.getElementById('tas').innerHTML='  BBQ CHICKEN FLAVOUR'
 
 }
 function plavv(){
     let hawian = document.getElementById('hawi').value
-    document.getElementById('tas').innerHTML='SELECTED PIZZA IS HAWAIIAN FLAVOUR'
+    document.getElementById('tas').innerHTML='  HAWAIIAN FLAVOUR'
 
 }
 
@@ -291,6 +291,15 @@ function zote(){
     document.getElementById('kim').innerHTML=' TOTAL AMOUNT TO BE PAID FOR ' + ' ' + num1 + ' '+' PIZZA(S) IS :' + ' ' + kk
     
     
+ }
+
+ function pick(){
+
+    document.getElementById('pickup').innerHTML= 'THANK YOU FOR YOUR' + ' ' +
+    document.getElementById('num').value + ' ' + document.getElementById('tas').innerHTML
+
+
+
  }
 
 
