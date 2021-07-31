@@ -1,4 +1,6 @@
 $(document).ready (function(){
+
+    
     
 
     $('#oli').hide()
@@ -54,21 +56,12 @@ $(document).ready (function(){
 
     })
     
-    
-    
-
-
-  
-
-
-
-
 }) 
 
 
 function fla(){
     let che = document.getElementById('cheese').value
-    document.getElementById('tas').innerHTML=' IS CHEESE FLAVOR'
+    document.getElementById('tas').innerHTML=' CHEESE FLAVOR'
 
 }
 function flav(){
@@ -304,12 +297,15 @@ function zote(){
     + document.getElementById('reason').innerHTML + ' ' + 'AND A ' +
     document.getElementById('krast').innerHTML + '.' + ' ' +
     'YOUR PIZZA WILL BE READY IN TEN MINUTES AND THE TOTAL COST WILL BE' + ' '
-    + document.getElementById('kkk').innerHTML
+    + document.getElementById('kkk').innerHTML + '/='
 
 
 
  }
-
+function deliv(){
+    alert('Delivery cost is Two Hundred')
+    prompt('Where do You want Your Pizza Delivered')
+}
 
 
 
