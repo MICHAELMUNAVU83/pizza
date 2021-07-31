@@ -91,9 +91,9 @@
     <br>
     <p class="text-center">
       <u>
-        <h3 class="text-center">
-          <span style="color: red;">PRICE </span><span style="color: green;"> LIST FOR</span> <span
-            style="color: red;">DIFFERENT</span> <span style="color: green;">SIZES</span>
+        <h3 id="prii" class="text-center">
+          <span style="color: red;"> CLICK TO SEE   </span><span style="color: green;">THE PRICE LIST </span> <span
+            style="color: red;"> FOR DIFFERENT</span> <span style="color: green;">SIZES</span>
 
 
         </h3>
@@ -102,7 +102,7 @@
       </u>
 
 
-    <div class="container">
+    <div id="pri" class="container">
       <table class="table table-hover text-center">
         <thead class="thead-dark">
           <tr>
@@ -139,9 +139,9 @@
     <br>
     <p class="text-center">
       <u>
-        <h3 class="text-center">
-          <span style="color: red;"> DIFFERENT </span><span style="color: green;"> FLAVOURS </span> <span
-            style="color: red;">WE</span> <span style="color: green;">HAVE</span>
+        <h3 id="pizz" class="text-center">
+          <span style="color: red;"> CLICK TO SEE </span><span style="color: green;"> DIFFERENT FLAVOURS </span> <span
+            style="color: red;">WE HAVE </span> <span style="color: green;">AT PIZZA PALACE</span>
 
 
         </h3>
@@ -149,7 +149,7 @@
       </u>
     </p>
 
-    <div class="container">
+    <div  id="piz" class="container">
       <ul class="list-group list-group-flush">
         <li class="list-group-item">Cheese Pizza </li>
         <li class="list-group-item">Veggie Pizza</li>
@@ -166,10 +166,10 @@
 
     </div>
     <br>
-    <p class="text-center">
+    <p  class="text-center">
       <u>
-        <h3 class="text-center">
-          <span style="color: red;"> PRICE </span><span style="color: green;"> LIST FOR </span> <span
+        <h3  id="oliv" class="text-center">
+          <span style="color: red;">   CLICK TO SEE </span><span style="color: green;"> PRICE LIST FOR </span> <span
             style="color: red;"> OUR TASTY </span> <span style="color: green;"> TOPPINGS </span>
 
 
@@ -178,7 +178,7 @@
       </u>
     </p>
 
-    <div class="container">
+    <div class="container" id="oli">
       <table class="table text-center">
         <thead class="thead-dark">
           <tr>
@@ -294,7 +294,7 @@
     <br>
     <br>
         
-    <p class="text-center">
+    <!-- <p class="text-center">
       <u>
         <h3 class="text-center">
           <span style="color: red;"> DIFFERENT </span><span style="color: green;"> KINDS OF </span> <span
@@ -337,15 +337,15 @@
     </div>
     <br>
     <br>
-    <br>
-    </div>
-  
+    <br> -->
+    <!-- </div>
+   -->
 
 
     <p class="text-center">
       <u>
-        <h3 class="text-center">
-          <span style="color: red;"> PRICE </span><span style="color: green;"> LIST FOR </span> <span
+        <h3 id="craa"  class="text-center">
+          <span style="color: red;">  CLICK TO SEE</span><span style="color: green;"> PRICE LIST FOR </span> <span
             style="color: red;"> TYPE OF CRUST</span> <span style="color: green;"> ON PIZZA </span>
 
 
@@ -354,7 +354,7 @@
       </u>
     </p>
 
-    <div class="container">
+    <div id="cra" class="container">
       <table class="table text-center">
         <thead class="thead-dark">
           <tr>
@@ -537,7 +537,7 @@
     <br>
 
     <div class="container">
-      <div class="row">
+      <div class="row" >
         <div class="col-sm text-center" style="outline: 2px solid red;" >
       <p class="text-center" style="color: green; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 23px;"><u>CHOOSE A CRUST</u></p>
           <br>
@@ -576,7 +576,7 @@
 
 
         <div class="col-sm text-center" style="outline: 2px solid green;">
-          <p class="text-center" style="color: red; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 23px;"><u>CHOOSE A FLAVOR</u></p>
+          <p class="text-center" style="color: red; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 23px;"><u>CHOOSE A TOPPING</u></p>
           <br>
           <br>
           <div class="text-center">
@@ -604,21 +604,27 @@
     <br>
     <br> 
     <div class="text-center">
-      <input class="text-center" type="number" name="number" id="num" value="number" >
+      <span class="text-center" style="color: green; font-size: 25px;">NUMBER OF PIZZAS :</span><input class="text-center" type="number" name="number" id="num" value="number" >
 
     </div>
+    <br>
+    <br>
   
     
     <div class="text-center">
-      <button  type="reset" onclick="zote()">yxcuvbinkj</button>
+    
+      <button type="reset" onclick="zote()" class="btn btn-danger btn-lg btn-block"> CHECK OUT BUTTON</button>
+
 
 
     </div>
+    <br>
+    <br>
     
-    <div class="container"  style="outline: 2px solid green;" id="resultt">
+    <div class="container"  style="outline: 2px solid green; font-size: 20px;" id="resultt">
   
       <br>
-       <span class="text-center">SELECTED FLAVOUR :</span><span id="tas" class="text-center"  ></span>
+       <span  class="text-center">SELECTED FLAVOUR :</span><span id="tas" class="text-center"  ></span>
       <br>
       <br>
       <span class="text-center">SELECTED PIZZA SIZE :</span><span id="resu" class="text-center"></span>
@@ -645,16 +651,15 @@
       <hr>
       <span id="kim" class="text-center"></span>
       <hr>
-  
-      
 
-    
     </div>
+
+    
     
 
 
 
-   
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
  <script src="script.js"></script>
 </body>
 

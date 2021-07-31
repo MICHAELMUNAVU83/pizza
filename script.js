@@ -1,3 +1,79 @@
+$(document).ready (function(){
+    $('#oli').hide()
+
+
+    $('#oliv').click(function(){
+
+        $('#oli').toggle()
+    })
+    $('#oli').mouseleave(function(){
+        $('#oli').hide()
+
+
+    })
+
+    $('#cra').hide()
+
+
+    $('#craa').click(function(){
+
+        $('#cra').toggle()
+    })
+    $('#cra').mouseleave(function(){
+        $('#cra').hide()
+
+
+    })
+
+
+      $('#pri').hide()
+
+
+    $('#prii').click(function(){
+
+        $('#pri').toggle()
+    })
+    $('#pri').mouseleave(function(){
+        $('#pri').hide()
+
+
+    })
+
+    $('#piz').hide()
+
+
+    $('#pizz').click(function(){
+
+        $('#piz').toggle()
+    })
+    $('#piz').mouseleave(function(){
+        $('#piz').hide()
+
+
+    })
+    
+    
+    
+
+
+  
+
+
+
+
+}) 
+
+
+
+
+
+
+
+
+
+
+
+
 
 function fla(){
     let che = document.getElementById('cheese').value
