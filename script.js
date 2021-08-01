@@ -93,7 +93,7 @@ function plavv(){
 
 
 
-function pep(){
+function largeSize(){
 
 
 
@@ -103,12 +103,12 @@ function pep(){
   
     
 }
-function pepp(){
+function mediumSize(){
 
     let bigger = document.getElementById('MediumSizePizza').value
     document.getElementById('resu').innerHTML= 'MEDIUM SIZE PIZZA'
 }
-function peppp(){
+function smallSize(){
 
     let big = document.getElementById('SmallSizePizza').value
     document.getElementById('resu').innerHTML= 'SMALL SIZE PIZZA'
@@ -116,18 +116,18 @@ function peppp(){
 
 
 function cr(){
-    let price = document.getElementById('resu').innerHTML
+    let size = document.getElementById('resu').innerHTML
     
     
     
-   if(price== 'LARGE SIZE PIZZA' ) {
+   if(size== 'LARGE SIZE PIZZA' ) {
     document.getElementById('krast').innerHTML='STUFFED CRUST'
     document.getElementById('kra').innerHTML=  String(100) 
-   } else if (price == 'MEDIUM SIZE PIZZA') {
+   } else if (size == 'MEDIUM SIZE PIZZA') {
     document.getElementById('krast').innerHTML='STUFFED CRUST'
     document.getElementById('kra').innerHTML= String(70) 
        
-   } else if(price== 'SMALL SIZE PIZZA') {
+   } else if(size== 'SMALL SIZE PIZZA') {
     document.getElementById('krast').innerHTML='STUFFED CRUST'
     document.getElementById('kra').innerHTML=  String (50)
        
@@ -137,18 +137,18 @@ function cr(){
 }
 
 function cru(){
-    let price = document.getElementById('resu').innerHTML
+    let size = document.getElementById('resu').innerHTML
    
    
-   if(price== 'LARGE SIZE PIZZA' ) {
+   if(size== 'LARGE SIZE PIZZA' ) {
     document.getElementById('krast').innerHTML='CRISPED CRUST'
 
     document.getElementById('kra').innerHTML= String(100) 
-   } else if (price == 'MEDIUM SIZE PIZZA') {
+   } else if (size == 'MEDIUM SIZE PIZZA') {
     document.getElementById('krast').innerHTML='CRISPED CRUST'
     document.getElementById('kra').innerHTML=  String(70) 
        
-   } else if(price== 'SMALL SIZE PIZZA') {
+   } else if(size== 'SMALL SIZE PIZZA') {
     document.getElementById('krast').innerHTML='CRISPED CRUST'
     document.getElementById('kra').innerHTML= String(50)  
        
@@ -159,15 +159,15 @@ function cru(){
 function crus(){
     
 
-    let price = document.getElementById('resu').innerHTML
-   if(price== 'LARGE SIZE PIZZA' ) {
+    let size = document.getElementById('resu').innerHTML
+   if(size== 'LARGE SIZE PIZZA' ) {
        document.getElementById('krast').innerHTML='GLUTEN -FREE CRUST'
     document.getElementById('kra').innerHTML= String(100)
-   } else if (price == 'MEDIUM SIZE PIZZA') {
+   } else if (size == 'MEDIUM SIZE PIZZA') {
     document.getElementById('krast').innerHTML='GLUTEN -FREE CRUST'
     document.getElementById('kra').innerHTML= String(70)
        
-   } else if(price== 'SMALL SIZE PIZZA'){
+   } else if(size== 'SMALL SIZE PIZZA'){
     document.getElementById('krast').innerHTML='GLUTEN -FREE CRUST'
     document.getElementById('kra').innerHTML= String(50)
        
@@ -180,19 +180,19 @@ function crus(){
 
 
 function sas(){
-    let price = document.getElementById('resu').innerHTML
+    let size = document.getElementById('resu').innerHTML
     
     
     
-   if(price== 'LARGE SIZE PIZZA' ) {
+   if(size== 'LARGE SIZE PIZZA' ) {
     document.getElementById('reason').innerHTML='SAUSAGE TOPPINGS'
 
     document.getElementById('top').innerHTML=  String(200) 
-   } else if (price == 'MEDIUM SIZE PIZZA') {
+   } else if (size == 'MEDIUM SIZE PIZZA') {
     document.getElementById('reason').innerHTML='SAUSAGE TOPPINGS'
     document.getElementById('top').innerHTML= String(150) 
        
-   } else if(price== 'SMALL SIZE PIZZA') {
+   } else if(size== 'SMALL SIZE PIZZA') {
     document.getElementById('reason').innerHTML='SAUSAGE TOPPINGS'
     document.getElementById('top').innerHTML=  String (100)
        
@@ -202,18 +202,18 @@ function sas(){
 }
 
 function sass(){
-    let price = document.getElementById('resu').innerHTML
+    let size = document.getElementById('resu').innerHTML
    
    
-   if(price== 'LARGE SIZE PIZZA' ) {
+   if(size== 'LARGE SIZE PIZZA' ) {
     document.getElementById('reason').innerHTML='MUSHROOM TOPPINGS'
 
     document.getElementById('top').innerHTML= String(200) 
-   } else if (price == 'MEDIUM SIZE PIZZA') {
+   } else if (size == 'MEDIUM SIZE PIZZA') {
     document.getElementById('reason').innerHTML='MUSHROOM TOPPINGS'
     document.getElementById('top').innerHTML=  String(150) 
        
-   } else if(price== 'SMALL SIZE PIZZA') {
+   } else if(size== 'SMALL SIZE PIZZA') {
     document.getElementById('reason').innerHTML='MUSHROOM TOPPINGS'
     document.getElementById('top').innerHTML= String(100)  
        
@@ -224,16 +224,16 @@ function sass(){
 function sasss(){
     
 
-    let price = document.getElementById('resu').innerHTML
-   if(price== 'LARGE SIZE PIZZA' ) {
+    let size = document.getElementById('resu').innerHTML
+   if(size== 'LARGE SIZE PIZZA' ) {
        document.getElementById('reason').innerHTML='BACON TOPPINGS'
 
     document.getElementById('top').innerHTML= String(200)
-   } else if (price == 'MEDIUM SIZE PIZZA') {
+   } else if (size == 'MEDIUM SIZE PIZZA') {
     document.getElementById('reason').innerHTML='BACON TOPPINGS'
     document.getElementById('top').innerHTML= String(150)
        
-   } else if(price== 'SMALL SIZE PIZZA'){
+   } else if(size== 'SMALL SIZE PIZZA'){
     document.getElementById('reason').innerHTML='BACON TOPPINGS'
     document.getElementById('top').innerHTML= String(100)
        
@@ -244,16 +244,16 @@ function sasss(){
 
 function sassss(){
 
-    let price = document.getElementById('resu').innerHTML
-   if(price== 'LARGE SIZE PIZZA' ) {
+    let size = document.getElementById('resu').innerHTML
+   if(size== 'LARGE SIZE PIZZA' ) {
        document.getElementById('reason').innerHTML='Extra Cheese Topping'
 
     document.getElementById('top').innerHTML= String(200)
-   } else if (price == 'MEDIUM SIZE PIZZA') {
+   } else if (size == 'MEDIUM SIZE PIZZA') {
     document.getElementById('reason').innerHTML='Extra Cheese Topping'
     document.getElementById('top').innerHTML= String(150)
        
-   } else if(price== 'SMALL SIZE PIZZA'){
+   } else if(size== 'SMALL SIZE PIZZA'){
     document.getElementById('reason').innerHTML='Extra Cheese Topping'
     document.getElementById('top').innerHTML= String(100)
        
@@ -264,13 +264,13 @@ function sassss(){
 
 function zote(){
 
-    let price = document.getElementById('resu').innerHTML
-    if(price==='LARGE SIZE PIZZA'){
+    let size = document.getElementById('resu').innerHTML
+    if(size==='LARGE SIZE PIZZA'){
         document.getElementById('menuu').innerHTML=String(1100)
-    }else if (price == 'MEDIUM SIZE PIZZA') {
+    }else if (size == 'MEDIUM SIZE PIZZA') {
         document.getElementById('menuu').innerHTML=String(800)
         
-    } else if(price== 'SMALL SIZE PIZZA') {
+    } else if(size== 'SMALL SIZE PIZZA') {
         document.getElementById('menuu').innerHTML=String(500)
     
         
