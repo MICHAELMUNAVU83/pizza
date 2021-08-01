@@ -497,17 +497,17 @@
           <br>
           <br>
           <div class="text-center">
-            <input type="radio" name="crustt" id="stuffed" value="stuffed" onclick="cr()"> STUFFED CRUST
+            <input type="radio" name="crustt" id="stuffed" value="stuffed" onclick="stuffedCrust()"> STUFFED CRUST
           </div>
           <br>
           <br>
           <div class="text-center">
-            <input type="radio" name="crustt" id="crisp" value="crisp" onclick="cru()">CRISP CRUST
+            <input type="radio" name="crustt" id="crisp" value="crisp" onclick="crispedCrust()">CRISP CRUST
           </div>
           <br>
           <br>
           <div class="text-center">
-            <input type="radio" name="crustt" id="glutfree" value="glutfree" onclick="crus()"> GLUTEN-FREE CRUST
+            <input type="radio" name="crustt" id="glutfree" value="glutfree" onclick="glutenFreeCrust()"> GLUTEN-FREE CRUST
           </div>
 
 
@@ -534,23 +534,23 @@
           <br>
           <br>
           <div class="text-center">
-            <input type="radio" name="gend" id="sausage" onclick="sas()" value="sausage">SAUSAGES
+            <input type="radio" name="gend" id="sausage" onclick="sausageTopping()" value="sausage">SAUSAGES
            </div>
            <br>
            <br>
            <div class="text-center">
-            <input type="radio" name="gend" id="mushrooms" onclick="sass()"  value="mushrooms">MUSHROOMS
+            <input type="radio" name="gend" id="mushrooms" onclick="mushroomTopping()"  value="mushrooms">MUSHROOMS
            </div>
            <br>
            <br>
            <div class="text-center">
-            <input type="radio" name="gend" id="bacon" onclick="sasss()" value="bacon">BACON
+            <input type="radio" name="gend" id="bacon" onclick="baconTopping()" value="bacon">BACON
            </div>
            <br>
            <br>
           
           <div class="text-center">
-            <input type="radio" name="gend" id="cheese" onclick="sassss()" value="cheese">EXTRA CHEESE
+            <input type="radio" name="gend" id="cheese" onclick="cheeseTopping()" value="cheese">EXTRA CHEESE
           </div>          
         </div>
       </div>
@@ -558,7 +558,7 @@
     <br>
     <br> 
     <div class="text-center">
-      <span class="text-center" style="color: green; font-size: 25px;">NUMBER OF PIZZAS :</span><input class="text-center" type="number" name="number" id="num" value="number" >
+      <span class="text-center" style="color: green; font-size: 25px;">NUMBER OF PIZZAS :</span><input class="text-center" type="number"  min="1" required  name="number" id="num" value="number" >
 
     </div>
     <br>

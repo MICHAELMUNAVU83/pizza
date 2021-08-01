@@ -111,7 +111,7 @@ function smallSize(){
 }
 
 
-function cr(){
+function stuffedCrust(){
     let size = document.getElementById('pizzaSize').innerHTML
     
     
@@ -132,7 +132,7 @@ function cr(){
     
 }
 
-function cru(){
+function crispedCrust(){
     let size = document.getElementById('pizzaSize').innerHTML
    
    
@@ -152,7 +152,7 @@ function cru(){
    
 }
 
-function crus(){
+function glutenFreeCrust(){
     
 
     let size = document.getElementById('pizzaSize').innerHTML
@@ -175,7 +175,7 @@ function crus(){
 
 
 
-function sas(){
+function sausageTopping(){
     let size = document.getElementById('pizzaSize').innerHTML
     
     
@@ -197,7 +197,7 @@ function sas(){
     
 }
 
-function sass(){
+function mushroomTopping(){
     let size = document.getElementById('pizzaSize').innerHTML
    
    
@@ -217,7 +217,7 @@ function sass(){
    
 }
 
-function sasss(){
+function baconTopping(){
     
 
     let size = document.getElementById('pizzaSize').innerHTML
@@ -238,7 +238,7 @@ function sasss(){
     
 }
 
-function sassss(){
+function cheeseTopping(){
 
     let size = document.getElementById('pizzaSize').innerHTML
    if(size== 'LARGE SIZE PIZZA' ) {
@@ -301,10 +301,11 @@ function checkOut(){
       });
     
  }
+
 function deliv(){
     alert('Delivery cost is Two Hundred')
-    let pro = prompt('Where do You want Your Pizza Delivered')
-    document.getElementById('promptAnswer').innerHTML= pro
+    let answer = prompt('Where do You want Your Pizza Delivered')
+    document.getElementById('promptAnswer').innerHTML= answer
     
     let deliver = (  parseInt(document.getElementById('fullCost').innerHTML  ) + 200 )
     document.getElementById('del').innerHTML= deliver
