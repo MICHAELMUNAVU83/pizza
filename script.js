@@ -59,32 +59,32 @@ $(document).ready (function(){
 }) 
 
 
-function fla(){
+function cheeseFlavour(){
     let che = document.getElementById('cheese').value
     document.getElementById('taste').innerHTML=' CHEESE FLAVOR'
 
 }
-function flav(){
+function veggieFlavour(){
     let vegg = document.getElementById('veggie').value
     document.getElementById('taste').innerHTML='  VEGGIE FLAVOUR'
 
 }
-function flavv(){
+function pepperoniFlavour(){
     let roni = document.getElementById('pepper').value
     document.getElementById('taste').innerHTML='  PEPPERONI FLAVOUR'
 
 }
-function pla(){
+function meatFlavour(){
     let meatt = document.getElementById('meat').value
     document.getElementById('taste').innerHTML='  MEAT FLAVOUR'
 
 }
-function plav(){
+function chickenFlavour(){
     let chic = document.getElementById('chick').value
     document.getElementById('taste').innerHTML='  BBQ CHICKEN FLAVOUR'
 
 }
-function plavv(){
+function hawiFlavour(){
     let hawian = document.getElementById('hawi').value
     document.getElementById('taste').innerHTML='  HAWAIIAN FLAVOUR'
 
